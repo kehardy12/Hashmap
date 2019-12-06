@@ -23,9 +23,6 @@ class HashMap
 		V value;
 		size_t h;
 		Bucket *next;
-
-
-
 	};
 
 	std::vector<Bucket*> buckets;
@@ -52,7 +49,7 @@ class HashMap
 	{
 		if (buckets.size() / 2 < s)
 		{
-			//buckets.resize(primegreaterthan(buckets.size()*2 + 1));
+			//	buckets.resize(primegreaterthan(buckets.size()*2 + 1));
 
 			 //more work to do here
 		}
